@@ -3,16 +3,16 @@
 * _puts_rev_recursion - prints a string in reverse.
 * @s: The string to be printed.
 */
-void _prints_rev_recursion(char *s)
+void _puts_rev_recursion(char *s)
 {
 	if (*s)
 	{
-		_prints_rev_recursion(s + 1);
-		_putchar;
+		_puts_rev_recursion(s + 1);
+		_putchar(*s);
 	}
 else
 		{
-			_putchar('\n');
+			_putchar;
 		}
 
 }
